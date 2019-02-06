@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECC318E220ADC4200F3999B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC318D220ADC4200F3999B /* AppDelegate.swift */; };
+		CECC3190220ADC4200F3999B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC318F220ADC4200F3999B /* ViewController.swift */; };
+		CECC3193220ADC4200F3999B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECC3191220ADC4200F3999B /* Main.storyboard */; };
+		CECC3195220ADC4300F3999B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC3194220ADC4300F3999B /* Assets.xcassets */; };
+		CECC3198220ADC4300F3999B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECC3196220ADC4300F3999B /* LaunchScreen.storyboard */; };
+		CECC31A3220ADC4300F3999B /* pokesingleverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC31A2220ADC4300F3999B /* pokesingleverTests.swift */; };
+		CECC31AE220ADC4300F3999B /* pokesingleverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC31AD220ADC4300F3999B /* pokesingleverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECC319F220ADC4300F3999B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECC3182220ADC4000F3999B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECC3189220ADC4100F3999B;
+			remoteInfo = pokesinglever;
+		};
+		CECC31AA220ADC4300F3999B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECC3182220ADC4000F3999B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECC3189220ADC4100F3999B;
+			remoteInfo = pokesinglever;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECC318A220ADC4200F3999B /* pokesinglever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokesinglever.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC318D220ADC4200F3999B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECC318F220ADC4200F3999B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CECC3192220ADC4200F3999B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECC3194220ADC4300F3999B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECC3197220ADC4300F3999B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECC3199220ADC4300F3999B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECC319E220ADC4300F3999B /* pokesingleverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokesingleverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC31A2220ADC4300F3999B /* pokesingleverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokesingleverTests.swift; sourceTree = "<group>"; };
+		CECC31A4220ADC4300F3999B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECC31A9220ADC4300F3999B /* pokesingleverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokesingleverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC31AD220ADC4300F3999B /* pokesingleverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokesingleverUITests.swift; sourceTree = "<group>"; };
+		CECC31AF220ADC4300F3999B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECC3187220ADC4100F3999B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC319B220ADC4300F3999B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC31A6220ADC4300F3999B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECC3181220ADC4000F3999B = {
+			isa = PBXGroup;
+			children = (
+				CECC318C220ADC4200F3999B /* pokesinglever */,
+				CECC31A1220ADC4300F3999B /* pokesingleverTests */,
+				CECC31AC220ADC4300F3999B /* pokesingleverUITests */,
+				CECC318B220ADC4200F3999B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECC318B220ADC4200F3999B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECC318A220ADC4200F3999B /* pokesinglever.app */,
+				CECC319E220ADC4300F3999B /* pokesingleverTests.xctest */,
+				CECC31A9220ADC4300F3999B /* pokesingleverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECC318C220ADC4200F3999B /* pokesinglever */ = {
+			isa = PBXGroup;
+			children = (
+				CECC318D220ADC4200F3999B /* AppDelegate.swift */,
+				CECC318F220ADC4200F3999B /* ViewController.swift */,
+				CECC3191220ADC4200F3999B /* Main.storyboard */,
+				CECC3194220ADC4300F3999B /* Assets.xcassets */,
+				CECC3196220ADC4300F3999B /* LaunchScreen.storyboard */,
+				CECC3199220ADC4300F3999B /* Info.plist */,
+			);
+			path = pokesinglever;
+			sourceTree = "<group>";
+		};
+		CECC31A1220ADC4300F3999B /* pokesingleverTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECC31A2220ADC4300F3999B /* pokesingleverTests.swift */,
+				CECC31A4220ADC4300F3999B /* Info.plist */,
+			);
+			path = pokesingleverTests;
+			sourceTree = "<group>";
+		};
+		CECC31AC220ADC4300F3999B /* pokesingleverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CECC31AD220ADC4300F3999B /* pokesingleverUITests.swift */,
+				CECC31AF220ADC4300F3999B /* Info.plist */,
+			);
+			path = pokesingleverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECC3189220ADC4100F3999B /* pokesinglever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECC31B2220ADC4300F3999B /* Build configuration list for PBXNativeTarget "pokesinglever" */;
+			buildPhases = (
+				CECC3186220ADC4100F3999B /* Sources */,
+				CECC3187220ADC4100F3999B /* Frameworks */,
+				CECC3188220ADC4100F3999B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pokesinglever;
+			productName = pokesinglever;
+			productReference = CECC318A220ADC4200F3999B /* pokesinglever.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECC319D220ADC4300F3999B /* pokesingleverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECC31B5220ADC4300F3999B /* Build configuration list for PBXNativeTarget "pokesingleverTests" */;
+			buildPhases = (
+				CECC319A220ADC4300F3999B /* Sources */,
+				CECC319B220ADC4300F3999B /* Frameworks */,
+				CECC319C220ADC4300F3999B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECC31A0220ADC4300F3999B /* PBXTargetDependency */,
+			);
+			name = pokesingleverTests;
+			productName = pokesingleverTests;
+			productReference = CECC319E220ADC4300F3999B /* pokesingleverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CECC31A8220ADC4300F3999B /* pokesingleverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECC31B8220ADC4300F3999B /* Build configuration list for PBXNativeTarget "pokesingleverUITests" */;
+			buildPhases = (
+				CECC31A5220ADC4300F3999B /* Sources */,
+				CECC31A6220ADC4300F3999B /* Frameworks */,
+				CECC31A7220ADC4300F3999B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECC31AB220ADC4300F3999B /* PBXTargetDependency */,
+			);
+			name = pokesingleverUITests;
+			productName = pokesingleverUITests;
+			productReference = CECC31A9220ADC4300F3999B /* pokesingleverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECC3182220ADC4000F3999B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = g87;
+				TargetAttributes = {
+					CECC3189220ADC4100F3999B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CECC319D220ADC4300F3999B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CECC3189220ADC4100F3999B;
+					};
+					CECC31A8220ADC4300F3999B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CECC3189220ADC4100F3999B;
+					};
+				};
+			};
+			buildConfigurationList = CECC3185220ADC4000F3999B /* Build configuration list for PBXProject "pokesinglever" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECC3181220ADC4000F3999B;
+			productRefGroup = CECC318B220ADC4200F3999B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECC3189220ADC4100F3999B /* pokesinglever */,
+				CECC319D220ADC4300F3999B /* pokesingleverTests */,
+				CECC31A8220ADC4300F3999B /* pokesingleverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECC3188220ADC4100F3999B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC3198220ADC4300F3999B /* LaunchScreen.storyboard in Resources */,
+				CECC3195220ADC4300F3999B /* Assets.xcassets in Resources */,
+				CECC3193220ADC4200F3999B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC319C220ADC4300F3999B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC31A7220ADC4300F3999B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECC3186220ADC4100F3999B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC3190220ADC4200F3999B /* ViewController.swift in Sources */,
+				CECC318E220ADC4200F3999B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC319A220ADC4300F3999B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC31A3220ADC4300F3999B /* pokesingleverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC31A5220ADC4300F3999B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC31AE220ADC4300F3999B /* pokesingleverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECC31A0220ADC4300F3999B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECC3189220ADC4100F3999B /* pokesinglever */;
+			targetProxy = CECC319F220ADC4300F3999B /* PBXContainerItemProxy */;
+		};
+		CECC31AB220ADC4300F3999B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECC3189220ADC4100F3999B /* pokesinglever */;
+			targetProxy = CECC31AA220ADC4300F3999B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECC3191220ADC4200F3999B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECC3192220ADC4200F3999B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECC3196220ADC4300F3999B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECC3197220ADC4300F3999B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECC31B0220ADC4300F3999B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECC31B1220ADC4300F3999B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECC31B3220ADC4300F3999B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pokesinglever/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = g87.com.pokesinglever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECC31B4220ADC4300F3999B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pokesinglever/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = g87.com.pokesinglever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CECC31B6220ADC4300F3999B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pokesingleverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = g87.com.pokesingleverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pokesinglever.app/pokesinglever";
+			};
+			name = Debug;
+		};
+		CECC31B7220ADC4300F3999B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pokesingleverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = g87.com.pokesingleverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pokesinglever.app/pokesinglever";
+			};
+			name = Release;
+		};
+		CECC31B9220ADC4300F3999B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pokesingleverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = g87.com.pokesingleverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pokesinglever;
+			};
+			name = Debug;
+		};
+		CECC31BA220ADC4300F3999B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pokesingleverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = g87.com.pokesingleverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pokesinglever;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECC3185220ADC4000F3999B /* Build configuration list for PBXProject "pokesinglever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC31B0220ADC4300F3999B /* Debug */,
+				CECC31B1220ADC4300F3999B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECC31B2220ADC4300F3999B /* Build configuration list for PBXNativeTarget "pokesinglever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC31B3220ADC4300F3999B /* Debug */,
+				CECC31B4220ADC4300F3999B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECC31B5220ADC4300F3999B /* Build configuration list for PBXNativeTarget "pokesingleverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC31B6220ADC4300F3999B /* Debug */,
+				CECC31B7220ADC4300F3999B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECC31B8220ADC4300F3999B /* Build configuration list for PBXNativeTarget "pokesingleverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC31B9220ADC4300F3999B /* Debug */,
+				CECC31BA220ADC4300F3999B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECC3182220ADC4000F3999B /* Project object */;
+}
